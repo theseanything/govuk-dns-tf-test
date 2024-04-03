@@ -1,0 +1,20 @@
+---
+origin: example.com.
+records:
+- data:
+  - 198.51.100.0
+  - 198.51.100.1
+  - 198.51.100.2
+  - 198.51.100.3
+  record_type: A
+  subdomain: "@"
+  ttl: '3600'
+- data:
+  - text
+  record_type: TXT
+  subdomain: text
+  ttl: '3600'
+- data:
+  - example.io.
+  record_type: CNAME
+  subdomain: www
