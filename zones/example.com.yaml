@@ -18,3 +18,8 @@ records:
   - example.io.
   record_type: CNAME
   subdomain: www
+- data:
+  - 127.0.0.1
+  record_type: A
+  subdomain: test
+  ttl: 3600
