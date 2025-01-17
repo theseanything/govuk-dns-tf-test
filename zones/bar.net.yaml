@@ -8,3 +8,8 @@ records:
   - ns4.dns.com.
   record_type: NS
   subdomain: foo
+- subdomain: foo
+  record_type: A
+  data:
+  - 1.2.3.4
+  ttl: 300
