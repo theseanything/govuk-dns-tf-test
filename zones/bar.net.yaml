@@ -1,0 +1,10 @@
+---
+origin: bar.net.
+records:
+- data:
+  - ns1.dns.com.
+  - ns2.dns.com.
+  - ns3.dns.com.
+  - ns4.dns.com.
+  record_type: NS
+  subdomain: foo
