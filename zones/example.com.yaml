@@ -8,7 +8,7 @@ records:
   - 198.51.100.3
   record_type: A
   subdomain: "@"
-  ttl: '3600'
+  ttl: 600
 - data:
   - text
   record_type: TXT
